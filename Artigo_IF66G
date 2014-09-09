@@ -1,0 +1,91 @@
+%% Artigo_IF66G.tex
+%% Artigo construído fazendo uso do IEEEtran.cls
+%% Requisitos: Uso do IEEtran.cls versão superior a 1.7
+%% Referências para a construção do arquivo .tex:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+\documentclass[conference]{IEEEtran}%Classe do documento. Comando obrigatório.
+\usepackage[brazil]{babel} %Pacote com suporte para o português brasileiro.
+\usepackage{graphicx,color}	%Pacote para inserção de figuras e texto colorido.
+\usepackage[UTF8]{inputenc}%Pacote com suporte para caracteres especiais.
+\usepackage{amsthm,amsfonts,amsmath} %pacotes da American Mathematical Society para fontes e símbolos %matemáticos.
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%Início do documento.
+\begin{document}
+
+\title{Título}%Título do artigo, usar "\\" para melhor formatação
+
+% Nome dos autores e suas respectivas afiliações
+\author{\IEEEauthorblockN{Eduardo Hideki Kaneko}
+\IEEEauthorblockA{Engenharia de Computação\\Universidade Tecnológica\\
+Federal do Paraná\\
+Cornélio Procócio, Paraná\\
+eduardohideki@hotmail.com}
+\and
+\IEEEauthorblockN{Felipe Hernandes Bonfante}
+\IEEEauthorblockA{Engenharia de Computação\\Universidade Tecnológica\\
+Federal do Paraná\\
+Cornélio Procócio, Paraná\\
+felipe.satto@hotmail.com}
+\and
+\IEEEauthorblockN{Matheus Fernando Mollon}
+\IEEEauthorblockA{Engenharia de Computação\\Universidade Tecnológica\\
+Federal do Paraná\\
+Cornélio Procócio, Paraná\\
+mollon@hotmail.com}}
+
+% make the title area
+\maketitle
+
+\begin{abstract}
+% Área destinada a escrita do abstract.
+%\boldmath %símbolos padrões.
+
+The abstract goes here.
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+%Início da seção Introdução
+\section{Introdução}
+\par Casas inteligentes ou residencias automatizadas, tiveram suas origens baseadas na automação industrial, que já está presente a mais tempo, porém a ideia de automação residencial se difere da industrial devido a necessidade de se desenvolver sua arquitetura para um espaço menor, com centrais controladoras de tamanho reduzido. Outro fator que diferencia os dois ramos de automação se da em que utilizadores de casas inteligentes não precisam ter conhecimento técnico para seu manuseio. (referenciar bolzani, livro do mollon)
+\par O conceito de automação residencial é 	o conjunto de sistemas e/ou seus subsistemas que interagem entre si para realização de funções independentes (citar esse role aqui: MURATORI, José Roberto; FORTI, José Cândido; OMAI, Paulo. Associação 
+Brasileira de Automação Residencial : Home Cabling Training Manual. 2004. ).
+Referências usadas \cite{teza2002alguns}.
+
+
+%Início da seção Definição do Problema.
+\section{Definição do Problema}
+
+
+%Início da seção Solução do Problema.
+\section{Solução do Problema}
+
+
+%Início da seção Resultados de Implementação
+\section{Resultados de Implementação}
+
+
+%Início da seção Análises dos Resultados
+\section{Análises dos Resultados}
+
+
+%Início da seção Conclusões
+\section{Conclusões}
+
+
+% Seção de agradecimentos não é numerada, por isso o uso do *.
+%\section*{Agradecimentos}
+
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+
+%Fim do documento.
+\end{document}
+
